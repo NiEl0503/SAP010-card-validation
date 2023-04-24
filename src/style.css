@@ -1,0 +1,39 @@
+.btn {
+ background-color:white;
+ display: inline-block;
+ text-decoration: none;
+ color: darkblue;
+ border-radius: 300px;
+ text-align: center;
+ margin-left: 700px;
+ margin-bottom: 1000px;
+ text-size-adjust: 100px;
+ padding: 25px;
+ 
+}
+
+h1 {
+ color: white;
+  text-align: center;
+  }
+
+h4 {
+        color:  white;
+        text-align: center;
+        }
+
+body{
+          background-repeat: repeat-y;
+          background-size: 100px;
+          background-color: rgb(60, 0, 255)
+          }
+
+h3{
+          text-align: center;
+          color:  white;
+            }
+
+img{
+  margin-bottom: 50px;
+  border-radius: 15px 15px 15px 15px;
+        } 
