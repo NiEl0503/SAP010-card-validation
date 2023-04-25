@@ -1,37 +1,58 @@
 .btn {
- background-color:white;
- display: inline-block;
- text-decoration: none;
- color: darkblue;
- border-radius: 300px;
- text-align: center;
- margin-left: 700px;
- margin-bottom: 1000px;
- text-size-adjust: 100px;
- padding: 25px;
+  background-color:white;
+  display: inline-block;
+  text-decoration: none;
+  color: darkblue;
+  border-radius: 300px;
+  text-align: center;
+  margin-left: 700px;
+  margin-bottom: 1000px;
+  text-size-adjust: 100px;
+  padding: 25px;
  
 }
 
 h1 {
- color: white;
+  color: white;
   text-align: center;
   }
 
 h4 {
-        color:  white;
-        text-align: center;
+   color:  white;
+   text-align: center;
         }
 
 body{
-          background-repeat: repeat-y;
-          background-size: 100px;
-          background-color: rgb(60, 0, 255)
-          }
+   background-repeat: repeat-y;
+   background-size: 100px;
+   background-color: rgb(60, 0, 255)
+        }
+
+.title{
+    text-align: center;
+    color:  white;
+       }
+
+h2{
+        color:  white;
+       }
 
 h3{
-          text-align: center;
-          color:  white;
-            }
+        color:  white;
+       }
+
+h5{
+        color:  white;
+       }
+
+li{
+        color:  white;
+       }
+
+p{
+    text-align: center;
+    color:  white;
+       }
 
 img{
   margin-bottom: 50px;
