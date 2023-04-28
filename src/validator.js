@@ -27,7 +27,6 @@ const validator = {
     }
   },
 
-
   maskify: function (numberC) {
   // número é transformado em string para iterar no for
     const mask = numberC.toString();
