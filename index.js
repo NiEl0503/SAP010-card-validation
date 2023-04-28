@@ -12,7 +12,7 @@ function isValid() {
   if (numberC === ""){
     alert("Escreva o número do seu cartão por favor");
   }
-  else if(resultValid === true){
+  else if (resultValid === true){
     numberCard.innerHTML = numberBlock + "Cartão válido";
   }
   else{
