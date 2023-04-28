@@ -43,7 +43,7 @@ O dígito de verificação é o número que se obtém como resto depois de divid
 
 * Ao exibir o resultado de cada validação, os números devem ser mascarados
 
-![fluxograma de pseudocódigo](https:/Fluxograma.png/)
+![fluxograma de pseudocódigo] <img src="Fluxograma.png" alt="">
 
 ## 3. Como usar o validador de cartão de crédito
 
