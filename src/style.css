@@ -1,17 +1,27 @@
+body {
+        background-image: url(tc.png);
+        background-repeat: repeat-y;
+        background-size: 100px;
+        background-color: rgb(60, 0, 255)
+                }
+        
 .btn {
-        background-color:white;
         display: inline-block;
-        text-decoration: none;
-        color: darkblue;
-        border-radius: 300px;
-        text-align: center;
         margin-left: 700px;
         margin-bottom: 1000px;
-        text-size-adjust: 100px;
         padding: 25px;
- 
-}
+         }
 
+.img {
+        text-align:center;
+        width: 1500px;
+        height: 200px;
+                }
+.img1 {
+        text-align:right;
+        width: 1500px;
+        height: 200px;
+                                }
 h1 {
   color: white;
   text-align: center;
@@ -20,49 +30,27 @@ h1 {
 h4 {
    color:  white;
    text-align: center;
-        }
+           }
 
-body{
-   background-repeat: repeat-y;
-   background-size: 100px;
-   background-color: rgb(60, 0, 255)
-        }
 
-.title{
-    text-align: center;
-    color:  white;
-       }
-
-h2{
+h3 {
         color:  white;
         text-align: center;
        }
 
-h3{
+.p3 {
         color:  white;
         text-align: center;
        }
-
-h5{
-        color:  white;
-        text-align: center;
-       }
-
-li{
-        color:  white;
-        text-align: center;
-       }
-
 p{
     text-align: center;
-    color:  white;
+    color: white;
        }
+#send {
+        display:inline-flex;
+        margin-left: 700px;
+        margin-bottom: 1000px;
+             
+         
+           }
 
-img{
-  margin-bottom: 50px;
-  border-radius: 15px 15px 15px 15px;
-        } 
-gif{
-margin-top: 50px;
-border-radius: 15px 15px 15px 15px;
-         } 
