@@ -14,7 +14,7 @@ const validator = {
       }
       else {
         numberCardReverse[i] = parseInt(numberCardReverse[i]);
-      }      let sumCard = 0;
+      } let sumCard = 0;
       for (let i = 0; i < numberCardReverse.length; i++) {
         if (i % 2 !== 0) {
           sumCard = parseInt(numberCardReverse[i])
@@ -28,18 +28,6 @@ const validator = {
     }
   },
 
-  maskify: function (numberC) {
-    // número é transformado em string para iterar no for
-    const mask = numberC.toString();
-    let maskNum = "";
-    for (let i = 0; i < mask.length; i++) {
-      if (i < mask.length - 4) {
-        maskNum = maskNum + "#";
-      } else {
-        maskNum = maskNum + mask[i];
-      }
-    }
-    return maskNum;
-  }
-}
-export default validator;
+
+
+  export default validator;
