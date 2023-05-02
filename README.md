@@ -7,6 +7,7 @@
 * [3. Como usar o validador de cartão de crédito](#3-Como-usar-o-validador-de-cartão-de-crédito)
 * [4. Benefícios de usar um validador de cartão de crédito](#4-Benefícios-de-usar-um-validador-de-cartão-de-crédito)
 * [5. Contato](#5-Contato)
+* [6. Link do projeto](#6-link-do-projeto)
 
 
 ***
@@ -43,14 +44,13 @@ O dígito de verificação é o número que se obtém como resto depois de divid
 
 * Ao exibir o resultado de cada validação, os números devem ser mascarados
 
-![fluxograma de pseudocódigo] <img src="Fluxograma.png" alt="">
+[fluxograma de pseudocódigo] <img src="Fluxograma.png" alt="">
 
 ## 3. Como usar o validador de cartão de crédito
 
 Para usar este validador de cartão de crédito, basta seguir os passos abaixo e você poderá validar qualquer número de cartão de crédito.
 
-Passo 1: insira o número do seu cartão de crédito no campo de entrada. Certifique-se de que não haja espaços ou hífens entre os números.
-Passo 2: Clique no botão "VALIDAR" e a ferramenta de validação do cartão de crédito fará o resto.
+Passo 1: insira o número do seu cartão de crédito no campo de entrada. Certifique-se de que não haja espaços ou hífens entre os números.Passo 2: Clique no botão "VALIDAR" e a ferramenta de validação do cartão de crédito fará o resto.
 
 
 ## 4. Usos de um validador de cartão de crédito
@@ -65,4 +65,9 @@ Existem várias razões pelas quais você pode querer usar um validador de cart�
 
 
 ## 5. Contato
+
 ncontreraskanan@gmail.com
+
+## 6. Link do projeto
+
+https://niel0503.github.io/SAP010-card-validation/
