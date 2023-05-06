@@ -13,9 +13,9 @@ function isValid() {
     alert("Escreva o número do seu cartão por favor");
   }
   else if (resultValid === true) {
-    numberCard.innerHTML = numberBlock + "Cartão válido";
+    alert(numberCard.innerHTML = numberBlock + "Cartão válido");
   }
   else {
-    numberCard.innerHTML = numberBlock + "Cartão inválido";
+    alert(numberCard.innerHTML = numberBlock + "Cartão inválido");
   }
 }
