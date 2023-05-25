@@ -41,7 +41,7 @@ Posteriormente, todos os dígitos obtidos são adicionados
 O dígito de verificação é o número que se obtém como resto depois de dividir esse resultado por 10 (que é o que em matemática se chama mod-10).
 
 * Se o total do módulo 10 for igual a 0, o número do cartão é válido, caso contrário, é inválido.
-
+|
 * Ao exibir o resultado de cada validação, os números devem ser mascarados
 
 [fluxograma de pseudocódigo] <img src="Fluxograma.png" alt="">

@@ -1,0 +1,43 @@
+body {
+    width: 100%;
+    background: linear-gradient(0deg, rgba(74, 240, 242, 1) 0%, rgba(45, 144, 253, 1) 100%);
+}
+
+.img1 {
+    text-align: center;
+    width: 1500px;
+    height: 10px;
+    margin-top: 50px;
+}
+
+h1 {
+    color: rgb(81, 7, 185);
+    text-align: center;
+    font-family: sans-serif;
+}
+
+
+p {
+    text-align: center;
+    color: rgb(81, 7, 185);
+    font-family: sans-serif;
+}
+
+#send {
+    display: inline-flex;
+    margin-left: 700px;
+    margin-bottom: 450px;
+}
+
+#send:hover{
+    background-color: rgba(45, 144, 253, 1) ;
+    color:rgb(241, 238, 244);
+}
+
+
+footer {
+    text-align: center;
+    color: rgb(84, 21, 172);
+    margin-top: 10px;
+    font-family: sans-serif;
+}
