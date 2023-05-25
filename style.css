@@ -1,66 +1,50 @@
 body {
-        background-image: url(tc.png);
-        background-repeat: repeat-y;
-        background-size: 130px;
-        background-color: white;
-
-
-
+        width: 100%;
+        background: linear-gradient(0deg, rgba(74, 240, 242, 1) 0%, rgba(45, 144, 253, 1) 100%);
 }
 
 .btn {
-        display: inline-block;
+        display: flex;
         margin-left: 725px;
-        margin-bottom: 500px;
-
+        margin-bottom: 20px;
+        justify-content: left;
 }
-
+    
 .img {
         text-align: center;
         width: 1500px;
         height: 5px;
 }
 
-.img1 {
-        text-align: center;
-        width: 1500px;
-        height: 10px;
-        margin-top: 50px;
-}
 
 h1 {
         color: rgb(81, 7, 185);
         text-align: center;
+        font-family: sans-serif;
 }
 
 h4 {
         color: rgb(81, 7, 185);
         text-align: center;
+        font-family: sans-serif;
 }
 
 
 h3 {
         color: rgb(81, 7, 185);
         text-align: center;
+        font-family: sans-serif;
 }
 
 .p3 {
         color: rgb(81, 7, 185);
         text-align: center;
-}
-
-p {
-        text-align: center;
-        color: rgb(81, 7, 185);
-}
-
-#send {
-        display: inline-flex;
-        margin-left: 700px;
-        margin-bottom: 450px;
+        font-family: sans-serif;
 }
 
 footer {
         text-align: center;
-        color: rgb(50, 4, 113);
+        color: rgb(84, 21, 172);
+        margin-top: 400px;
+        font-family: sans-serif;
 }
