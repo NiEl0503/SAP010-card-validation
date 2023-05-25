@@ -1,4 +1,6 @@
-# Cartão de Crédito Válido
+# Cartão de Crédito Válido - VALINI ☺️
+
+https://niel0503.github.io/SAP010-card-validation/
 
 ## Índice
 
@@ -12,10 +14,10 @@
 
 ***
 
-## 1. Descrição
+## 1. Descrição 💻
 
-
-Valini é um validador de número de cartão de crédito, usado principalmente em lojas online ou por pessoas que querem saber se possuem um cartão de crédito válido ou não.
+No primeiro projeto do Laboratoria, optei por criar um validador de cartão de crédito, chamado Valini.
+Cujo principal objetivo é ser utilizado principalmente em lojas online ou por pessoas que querem saber se possuem um cartão de crédito válido ou não.
 
 Essa ferramenta útil é encontrada online e realiza a validação por meio do algoritmo LUHN.
 
@@ -25,7 +27,10 @@ chamado de módulo 10, é um método de soma de verificação, usado para valida
 números de identificação, como o IMEI de telefones celulares, cartões de crédito
 etc.
 
-## 2. pseudo-código
+## 2. pseudo-código  📝
+
+Neste espaço explico basicamente como funcionaria o algoritmo deste validador de cartão.
+
 
 Descrição
 * Digite o número do cartão de crédito (este campo não pode ficar vazio)
@@ -46,14 +51,19 @@ O dígito de verificação é o número que se obtém como resto depois de divid
 
 [fluxograma de pseudocódigo] <img src="Fluxograma.png" alt="">
 
-## 3. Como usar o validador de cartão de crédito
+
+
+
+## 3. Como usar o validador de cartão de crédito 🔅
 
 Para usar este validador de cartão de crédito, basta seguir os passos abaixo e você poderá validar qualquer número de cartão de crédito.
 
-Passo 1: insira o número do seu cartão de crédito no campo de entrada. Certifique-se de que não haja espaços ou hífens entre os números.Passo 2: Clique no botão "VALIDAR" e a ferramenta de validação do cartão de crédito fará o resto.
+Passo 1: insira o número do seu cartão de crédito no campo de entrada. Certifique-se de que não haja espaços ou hífens entre os números.
+<br>
+Passo 2: Clique no botão "VALIDAR" e a ferramenta de validação do cartão de crédito fará o resto.
 
 
-## 4. Usos de um validador de cartão de crédito
+## 4. Usos de um validador de cartão de crédito 🔅
 
 Existem várias razões pelas quais você pode querer usar um validador de cartão de crédito. Alguns dos motivos mais comuns são:
 
@@ -66,8 +76,4 @@ Existem várias razões pelas quais você pode querer usar um validador de cart�
 
 ## 5. Contato
 
-ncontreraskanan@gmail.com
-
-## 6. Link do projeto
-
-https://niel0503.github.io/SAP010-card-validation/
+<strong>Ninoska Contreras</strong> <a href="https://github.com/NiEl0503">Github</a> | <a href="https://www.linkedin.com/in/ninoska-contreras-86b075129/">Linkedin</a>
