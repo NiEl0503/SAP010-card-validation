@@ -10,12 +10,12 @@ function isValid() {
   const numberBlock = validator.maskify(numberC);
   //validação para que não entre uma String vazia
   if (numberC === "") {
-    alert("Escreva o número do seu cartão por favor");
+    alert("Write the credit card number please");
   }
   else if (resultValid === true) {
-    alert(numberCard.innerHTML = numberBlock + "Cartão válido");
+    alert(numberBlock + "Valid credit card");
   }
   else {
-    alert(numberCard.innerHTML = numberBlock + "Cartão inválido");
+    alert(numberBlock + "Invalid credit card");
   }
 }

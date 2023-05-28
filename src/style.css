@@ -21,6 +21,8 @@ h1 {
         color: rgb(81, 7, 185);
         text-align: center;
         font-family: sans-serif;
+        font-style: italic;
+        font-size: 2rem;
 }
 
 h4 {
@@ -48,3 +50,37 @@ footer {
         margin-top: 400px;
         font-family: sans-serif;
 }
+
+@media screen and (max-width: 1350px) {
+       
+       .h3,
+       h1 {
+                margin-left: 13rem;
+ }
+        .p3 {
+                margin-left: 17rem;
+ }
+ footer {
+        margin-left: 10em;
+}
+.h4 {
+        margin-left: 11rem;
+}
+}
+
+@media screen and (max-width:950px) {
+       
+        .h3,
+        h1 {
+                 margin-left: 17rem;
+  }
+         .p3 {
+                 margin-left: 17rem;
+  }
+  footer {
+         margin-left: 17em;
+ }
+ .h4 {
+         margin-left: 22rem;
+ }
+ }
