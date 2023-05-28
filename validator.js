@@ -1,33 +1,26 @@
 const validator = {
 
-  isValid: function (numberC) {
-    const numberCardReverse = (numberC.split("")).reverse();
-    // devemos selecionar os números pares da array e multiplicá-los por 2
-    // i valor inicial da variável de controle da repetição
-    for (let i = 0; i < numberCardReverse.length; i++) {
-      if (i % 2 === 0) {
-        numberCardReverse[i] = (numberCardReverse[i] * 2)
-        // suma de los digitos que sean mayor o igual a 10. ParseInt: extrair número da string
-        if (numberCardReverse[i] >= 10) {
-          numberCardReverse[i] = toString()(numberCardReverse[i][0]) + toString()(numberCardReverse[i][1]);
-        }
+  isValid(numberC) {
+    let resultado = numberC.split("").map(Number);
+    resultado = resultado.reverse();
+
+    let element = 1;
+    while (element < resultado.length) {
+      resultado[element] = resultado[element] * 2;
+      if (resultado[element] > 9) {
+        resultado[element] = resultado[element] - 9;
       }
-      else {
-        numberCardReverse[i] = parseInt(numberCardReverse[i]);
-      }
-      let sumCard = 0;
-      for (let i = 0; i < numberCardReverse.length; i++) {
-        if (i % 2 !== 0) {
-          sumCard = parseInt(numberCardReverse[i])
-        }
-      }
-      if (sumCard % 10 === 0) {
-        return true
-      } else {
-        return false
-      }
+      element = element + 2;
     }
+
+    let sum = 0;
+    for (element = 0; element < resultado.length; element++) {
+      sum = sum + resultado[element];
+    }
+
+    return sum % 10 === 0;
   },
+
   maskify: function (numberC) {
     // número é transformado em string para iterar no for
     const mask = numberC.toString();
