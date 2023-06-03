@@ -4,18 +4,18 @@ const validator = {
     let resultado = numberC.split("").map(Number);
     resultado = resultado.reverse();
 
-    let element = 1;
-    while (element < resultado.length) {
-      resultado[element] = resultado[element] * 2;
-      if (resultado[element] > 9) {
-        resultado[element] = resultado[element] - 9;
+    let index = 1;
+    while (index < resultado.length) {
+      resultado[index] = resultado[index] * 2;
+      if (resultado[index] > 9) {
+        resultado[index] = resultado[index] - 9;
       }
-      element = element + 2;
+      index = index + 2;
     }
 
     let sum = 0;
-    for (element = 0; element < resultado.length; element++) {
-      sum = sum + resultado[element];
+    for (index = 0; index < resultado.length; index++) {
+      sum = sum + resultado[index];
     }
 
     return sum % 10 === 0;
