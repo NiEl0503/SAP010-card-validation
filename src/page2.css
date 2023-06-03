@@ -1,13 +1,20 @@
+:root {
+    --fontColor: #3730cc;
+    --fontFamily: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    --textAlign: center;
+    --firstColor: rgb(75, 75, 75);
+}
+
 body {
     width: 100%;
     background: linear-gradient(0deg, rgba(74, 240, 242, 1) 0%, rgba(45, 144, 253, 1) 100%);
 }
 
 h1 {
-    color: rgb(81, 7, 185);
-    text-align: center;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-style: italic;
+    color: var(--fontColor);
+    text-align: var(--textAlign);
+    font-family: var(--fontFamily);
+    
 }
 
 #send {
@@ -18,7 +25,7 @@ h1 {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     border-radius: 1vh;
     font-size: 1em;
-    color: rgb(75, 75, 75);
+    color: var(--firstColor);
     margin-bottom: 20px;
 
 }
@@ -28,12 +35,18 @@ h1 {
     color: rgb(241, 238, 244);
 }
 
+a {
+    text-align: var(--textAlign);
+    color: var(--fontColor);
+    font-family: var(--fontFamily);
+}
+
 
 footer {
     text-align: center;
-    color: rgb(84, 21, 172);
+    color: var(--fontColor);
     margin-top: 20px;
-    font-family: sans-serif;
+    font-family: var(--fontFamily);
 }
 
 .main-conteiner {
@@ -42,35 +55,17 @@ footer {
     height: 50%;
     justify-content: center;
     margin-left: 450px;
-    text-align: center;
+    text-align: var(--textAlign);
     border-radius: 20px 20px 20px 20px;
 }
 
 .form {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: rgb(84, 21, 172);
+    font-family: var(--fontFamily);
+    color: var(--fontColor)
 }
 
-.form_input {
-    border-radius: 10px 10px 10px 10px;
-    display: inline-flex;
-    border: 0px;
-    padding: 1vh 1vw 1vh 1vw;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    border-radius: 1vh;
-    font-size: 1em;
-}
-
-.type-month {
-    border-radius: 10px 10px 10px 10px;
-    display: inline-flex;
-    border: 0px;
-    padding: 1vh 1vw 1vh 1vw;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    border-radius: 1vh;
-    font-size: 1em;
-}
-
+.form_input,
+.type-month,
 .type-year {
     border-radius: 10px 10px 10px 10px;
     display: inline-flex;
@@ -81,18 +76,17 @@ footer {
     font-size: 1em;
 }
 
+
 .logos {
     width: 20%;
     height: 5%;
     margin-right: 500px;
 }
-.type-month{
-    color: rgb(75, 75, 75);
+.type-month,
+.type-year {
+    color: var(--firstColor);
 }
 
-.type-year{
-    color:rgb(75, 75, 75); ;
-}
 
 @media screen and (max-width: 1050px) {
     .main-conteiner{
