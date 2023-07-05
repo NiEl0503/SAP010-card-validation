@@ -1,5 +1,4 @@
 :root {
-    --fontColor: #3730cc;
     --fontFamily: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     --textAlign: center;
     --firstColor: rgb(75, 75, 75);
@@ -7,11 +6,13 @@
 
 body {
     width: 100%;
-    background: linear-gradient(0deg, rgba(74, 240, 242, 1) 0%, rgba(45, 144, 253, 1) 100%);
+    background: rgb(255, 255, 255);
+        background: radial-gradient(circle, rgba(255, 255, 255, 1) 30%, rgb(17, 201, 207) 70%);
+
 }
 
 h1 {
-    color: var(--fontColor);
+    color: rgb(71, 194, 196);
     text-align: var(--textAlign);
     font-family: var(--fontFamily);
     
@@ -19,7 +20,7 @@ h1 {
 
 #send {
     display: inline-flex;
-    background-color: rgba(45, 144, 253, 1);
+    background-color: rgb(71, 194, 196);
     border: 0px;
     padding: 1vh 1vw 1vh 1vw;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -37,20 +38,20 @@ h1 {
 
 a {
     text-align: var(--textAlign);
-    color: var(--fontColor);
+    color: rgb(71, 194, 196);
     font-family: var(--fontFamily);
 }
 
 
 footer {
     text-align: center;
-    color: var(--fontColor);
+    color: rgb(71, 194, 196);
     margin-top: 20px;
     font-family: var(--fontFamily);
 }
 
 .main-conteiner {
-    background: linear-gradient(0deg, rgb(71, 194, 196) 0%, rgb(65, 147, 236) 100%);
+    background: rgb(17, 201, 207);
     width: 40%;
     height: 50%;
     justify-content: center;
@@ -61,7 +62,7 @@ footer {
 
 .form {
     font-family: var(--fontFamily);
-    color: var(--fontColor)
+    color: var(--firstColor);
 }
 
 .form_input,
@@ -74,6 +75,7 @@ footer {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     border-radius: 1vh;
     font-size: 1em;
+    text-align: center;
 }
 
 

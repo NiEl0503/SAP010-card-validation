@@ -8,12 +8,17 @@ function isValid() {
   const numberC = document.getElementById("numText").value;
   const resultValid = validator.isValid(numberC);
   const numberBlock = validator.maskify(numberC);
+  const Form = document.createElement('div');
+  const templateRegister = ` 
+  <p id="error">Invalid credit card</p>
+  ` 
+  Form.innerHTML=templateRegister;
   //validação para que não entre uma String vazia
   if (numberC === "") {
     alert("Write the credit card number please");
   }
   else if (resultValid === true) {
-    alert(numberBlock + "Valid credit card");
+    print.p(numberBlock + "Valid credit card");
   }
   else {
     alert(numberBlock + "Invalid credit card");

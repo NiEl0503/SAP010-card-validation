@@ -1,69 +1,71 @@
 :root {
-        --fontColor: #3730cc;
+        --fontColor: rgb(255, 255, 255);
         --fontFamily: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        --textAlign: center;
 }
 
 body {
         width: 100%;
-        background: linear-gradient(0deg, rgba(74, 240, 242, 1) 0%, rgba(45, 144, 253, 1) 100%);
-        height: 25%;
+        background: rgb(255, 255, 255);
+        background: radial-gradient(circle, rgba(255, 255, 255, 1) 30%, rgb(17, 201, 207) 70%);
+
 }
 
+h1 {
+        color: rgb(75, 75, 75);
+        text-align: center;
+        font-family: var(--fontFamily);
+        font-size: 2rem;
+        justify-content: center;
+        margin-top: 20px;
+}
 
 .btn {
         display: flex;
-        margin-left: 30em;
-        margin-bottom: 1em;
-        justify-content: left;
-
-}
-
-.img {
-        text-align: var(--textAlign);
-        width: 100%;
-        height: 1em;
+        justify-content: center;
+        align-items: center;
 }
 
 
-h1 {
-        color: var(--fontColor);
-        text-align: var(--textAlign);
-        font-family: var(--fontFamily);
-        font-size: 2rem;
-        margin-right: 7em;
+.btn button {
+        border-radius: 5px 5px 5px 5px;
+        background-color: rgb(17, 201, 207);
+        color:  rgb(75, 75, 75);
+        border: rgb(17, 201, 207);
+        width: 70px;
+        height: 30px;
+        font-size: 1em;
 }
 
-h4,
-h3 {
-        color: var(--fontColor);
-        text-align: var(--textAlign);
-        font-family: var(--fontFamily);
-        margin-right: 11em;
+.btn button:hover{
+        background-color: rgba(74, 240, 242, 1);
 }
 
-.p3 {
-        color: var(--fontColor);
-        text-align: var(--textAlign);
-        font-family: var(--fontFamily);
-        margin-right: 15em;
+.conteiner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 70vh;
+}
+img{
+        width: 23em;
+        height: 18em;
 }
 
 footer {
-        text-align: var(--textAlign);
-        color: var(--fontColor);
-        margin-top: 25em;
+        text-align: center;
+        color:rgb(75, 75, 75);
+        margin-top: 1em;
         font-family: var(--fontFamily);
-        margin-right: 7em;
+
 }
 
 a {
         text-align: var(--textAlign);
-        color: var(--fontColor);
+        color:rgb(75, 75, 75);
         font-family: var(--fontFamily);
 }
 
-@media screen and (max-min-width:600px) {
+/* @media screen and (max-min-width:600px) {
 
         footer {
                 margin-top: 10em;
@@ -116,8 +118,8 @@ a {
         .h4 {
                 margin-left: 11rem;
         }
-             
+
         .btn {
                 margin-left: 45em;
         }
-}
+} */
