@@ -1,19 +1,16 @@
 :root {
     --fontFamily: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    --textAlign: center;
-    --firstColor: rgb(75, 75, 75);
 }
 
 body {
     width: 100%;
-    background: rgb(255, 255, 255);
+    background: rgba(255, 255, 255, 1);
         background: radial-gradient(circle, rgba(255, 255, 255, 1) 30%, rgb(17, 201, 207) 70%);
-
 }
 
 h1 {
     color: rgb(71, 194, 196);
-    text-align: var(--textAlign);
+    text-align: center;
     font-family: var(--fontFamily);
     
 }
@@ -26,7 +23,7 @@ h1 {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     border-radius: 1vh;
     font-size: 1em;
-    color: var(--firstColor);
+    color: rgb(75, 75, 75);
     margin-bottom: 20px;
 
 }
@@ -37,7 +34,7 @@ h1 {
 }
 
 a {
-    text-align: var(--textAlign);
+    text-align: center;
     color: rgb(71, 194, 196);
     font-family: var(--fontFamily);
 }
@@ -46,23 +43,31 @@ a {
 footer {
     text-align: center;
     color: rgb(71, 194, 196);
-    margin-top: 20px;
+    margin-top: 60px;
     font-family: var(--fontFamily);
 }
 
+
+.center-conteiner {
+    
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
 .main-conteiner {
     background: rgb(17, 201, 207);
-    width: 40%;
+    width: 35%;
     height: 50%;
-    justify-content: center;
-    margin-left: 450px;
-    text-align: var(--textAlign);
+    margin: 0 auto;
+    text-align: center;
     border-radius: 20px 20px 20px 20px;
+    align-items: center;
 }
 
 .form {
     font-family: var(--fontFamily);
-    color: var(--firstColor);
+    color: rgb(75, 75, 75);
 }
 
 .form_input,
@@ -86,13 +91,55 @@ footer {
 }
 .type-month,
 .type-year {
-    color: var(--firstColor);
+    color: rgb(75, 75, 75);
+}
+
+.message{
+    color: rgb(75, 75, 75);
 }
 
 
-@media screen and (max-width: 1050px) {
-    .main-conteiner{
-     margin-left: 19rem;
-      
+@media screen and (max-width: 768px) {
+    .main-conteiner {
+      width: 80%;
+      height: auto;
+      margin: 0 auto;
     }
-}
+  
+    .logos {
+      width: 50%;
+      height: auto;
+      margin-right: 0;
+    }
+  
+    .form_input {
+      width: 80%;
+    }
+  
+    .type-month,
+    .type-year {
+      font-size: 0.8em;
+      width: 40%;
+    }
+    h1,
+    footer,
+    a{
+        color: rgb(75, 75, 75);
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .main-conteiner {
+      width: 90%;
+    }
+  
+    .logos {
+      width: 70%;
+    }
+  
+    .form_input,
+    .type-month,
+    .type-year {
+      font-size: 0.8em;
+    }
+  }

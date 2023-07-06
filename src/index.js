@@ -1,26 +1,25 @@
 import validator from './validator.js';
 
-//mostrar o número do cartão de crédito
 const numberCard = document.getElementById("send");
-numberCard.addEventListener("click", isValid)
+numberCard.addEventListener("click", function (event) {
+  event.preventDefault();
+  isValid();
+});
+
 function isValid() {
-  // use .value porque retorna o valor do atributo em um campo de texto
   const numberC = document.getElementById("numText").value;
   const resultValid = validator.isValid(numberC);
   const numberBlock = validator.maskify(numberC);
-  const Form = document.createElement('div');
-  const templateRegister = ` 
-  <p id="error">Invalid credit card</p>
-  ` 
-  Form.innerHTML=templateRegister;
-  //validação para que não entre uma String vazia
+  const resultContainer = document.getElementById("result");
+
   if (numberC === "") {
-    alert("Write the credit card number please");
+    resultContainer.innerHTML = `<p>Please fill in the blank fields 😟</p>`;
+  } else if (resultValid === true) {
+    resultContainer.innerHTML = `<p>${numberBlock} Valid credit card!😊</p>`;
+  } else {
+    resultContainer.innerHTML = `<p>${numberBlock} Invalid credit card 😐</p>`;
   }
-  else if (resultValid === true) {
-    print.p(numberBlock + "Valid credit card");
-  }
-  else {
-    alert(numberBlock + "Invalid credit card");
-  }
+
+  const form = document.querySelector('.form');
+  form.reset();
 }
