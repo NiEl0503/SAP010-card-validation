@@ -9,11 +9,11 @@
 
 <body>
   <header>
-    <h1>VALINI</h1>
+    <h1>Credit Card Validator</h1>
   </header>
   <br>
   
-  <main class="main-conteiner">
+  <main class="main-conteiner center-conteiner">
     <br>
     <figure><img class="logos" src="logos.png" alt="logos do cartao"></figure>
 
@@ -22,14 +22,14 @@
       <label for="cardholder">Cardholder Name</label>
       <br>
     
-      <input class="form_input" type="text" name="cardholder" id="cardholder" placeholder="e.g. Ninoska Contreras">
+      <input class="form_input" type="text" name="cardholder" id="cardholder" placeholder="Ninoska Contreras">
       <br>
       <br>
       <label for="numText">Card Number</label>
       <br>
       
       <input class="form_input" type="number" name="cardNumber" id="numText" minlength="13" maxlength="16"
-        placeholder="e.g. 1234 5678 9123 4567">
+        placeholder="1234 5678 9123 4567">
       <br>
       <br>
 
@@ -65,8 +65,9 @@
       </select>
       <br>
       <br>
+      <div id="result" class="mensage"></div>
       <br>
-      <br>
+      <p></p>
       <button type="submit" id="send">Validate</button>
     </form>
   </main>
