@@ -27,32 +27,32 @@ h1 {
 
 .btn button {
         border-radius: 5px 5px 5px 5px;
-        background-color: rgb(17, 201, 207);
-        color:  rgb(75, 75, 75);
-        border: rgb(75, 75, 75);
+        background-color: rgb(75, 75, 75);
+        color: rgb(251, 251, 251);
         width: 70px;
         height: 30px;
         font-size: 1em;
 }
 
-.btn button:hover{
-        background-color: rgba(74, 240, 242, 1);
+.btn button:hover {
+        background-color: rgb(106, 122, 123);
 }
 
 .conteiner {
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 70vh;
+        min-height: 70vh;
 }
-img{
+
+img {
         width: 23em;
         height: 18em;
 }
 
 footer {
         text-align: center;
-        color:rgb(75, 75, 75);
+        color: rgb(75, 75, 75);
         margin-top: 1em;
         font-family: var(--fontFamily);
 
@@ -60,6 +60,6 @@ footer {
 
 a {
         text-align: center;
-        color:rgb(75, 75, 75);
+        color: rgb(75, 75, 75);
         font-family: var(--fontFamily);
 }
