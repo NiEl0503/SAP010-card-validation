@@ -49,12 +49,12 @@ O dígito de verificação é o número que se obtém como resto depois de divid
 |
 * Ao exibir o resultado de cada validação, os números devem ser mascarados
 
-[fluxograma de pseudocódigo] <img src="Fluxograma.png" alt="">
+[fluxograma de pseudocódigo] (./src/assest/Fluxograma-card.png)
 
 
 
 
-## 3. Como usar o validador de cartão de crédito 🔅
+## 3. Como usar o validador de cartão de crédito ✅
 
 Para usar este validador de cartão de crédito, basta seguir os passos abaixo e você poderá validar qualquer número de cartão de crédito.
 
@@ -74,6 +74,6 @@ Existem várias razões pelas quais você pode querer usar um validador de cart�
 * Para garantir um processamento de pagamento tranquilo: Você pode usar um validador de cartão de crédito para garantir um processamento de pagamento tranquilo. Isso porque pode ajudá-lo a formatar o número do cartão de crédito corretamente. Isso pode ajudar a reduzir as chances de erros/fraude durante o processamento do pagamento.
 
 
-## 5. Contato
+## 5. Contato 😃
 
 <strong>Ninoska Contreras</strong> <a href="https://github.com/NiEl0503">Github</a> | <a href="https://www.linkedin.com/in/ninoska-contreras-86b075129/">Linkedin</a>
