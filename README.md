@@ -47,9 +47,9 @@ O dígito de verificação é o número que se obtém como resto depois de divid
 
 * Se o total do módulo 10 for igual a 0, o número do cartão é válido, caso contrário, é inválido.
 |
-* Ao exibir o resultado de cada validação, os números devem ser mascarados
+* Ao exibir o resultado de cada validação, os números devem ser mascarados <br>
 
-[fluxograma de pseudocódigo] (./src/assest/Fluxograma-card.png)
+![Fluxograma de pseudocódigo](./src/assest/Fluxograma-card.png)
 
 
 
